@@ -1,0 +1,17 @@
+.container {
+    height: 100vh;
+    padding-top: 35%;
+}
+
+.text {
+    color: white;
+}
+
+.text .blue-t {
+    color: #2C7EFF;
+}
+
+.title {
+    font-size: 3.5rem;
+    margin: 0;
+}
