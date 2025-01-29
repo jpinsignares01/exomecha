@@ -1,5 +1,6 @@
 import './styles.css'
-
+import ico from '../../assets/img/ico.png';
+import logo from '../../assets/img/logo.png';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function Header() {
@@ -8,8 +9,8 @@ function Header() {
     <>
       <div className="row pt-4 position-absolute w-100 top-0 start-0">
         <div className="col-12 text-center">
-          <img src="/src/assets/img/ico.png" style={{paddingRight:15}} alt="" />
-          <img src="/src/assets/img/logo.png" alt="" />
+          <img src={ico} style={{paddingRight:15}} alt="" />
+          <img src={logo} alt="" />
         </div>
       </div>
       <div className="vertical-center">
