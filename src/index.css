@@ -3,29 +3,27 @@
   src: url(assets/font/Nasalization.otf);
 }
 
-div {
-  font-family: Nasalization;
+@font-face {
+  font-family: RedHatDisplay;
+  src: url(assets/font/RedHatDisplay-Regular.ttf);
 }
 
 body {
-  background-color: black !important;
+  background-image: linear-gradient(black, rgb(19, 19, 19)) !important;
   padding: 0;
   margin: 0;
+}
+
+body * {
+  font-family: RedHatDisplay;
 }
 
 #root {
   padding: 0 !important;
 }
 
-.full-wh {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-}
-
 .bg-animation {
+  z-index: -1;
   position: fixed;
   top: 0;
   left: 0;

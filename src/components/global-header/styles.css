@@ -1,6 +1,12 @@
+.title.text {
+    font-family: Nasalization;
+}
+
 .container {
-    height: 100vh;
-    padding-top: 35%;
+    align-items: center;
+    display: grid;
+    align-content: center;
+
 }
 
 .text {
@@ -9,9 +15,18 @@
 
 .text .blue-t {
     color: #2C7EFF;
+    font-family: inherit;
 }
 
 .title {
-    font-size: 3.5rem;
+    font-size: 52px;
     margin: 0;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
