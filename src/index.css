@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: linear-gradient(black, rgb(19, 19, 19)) !important;
+  background-image: linear-gradient(#110F2B, #000000) !important;
   padding: 0;
   margin: 0;
 }
